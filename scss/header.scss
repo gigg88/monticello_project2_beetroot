@@ -1,0 +1,54 @@
+
+.header_section{
+    padding-top:53px;
+    background-image: url();
+}
+.main_nav_list {
+    display:flex;
+    column-gap: 93px;
+
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: var(--regular);
+        line-height: auto;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+.header_logo_img{
+    width: 241px;
+    height: 54px;
+    background-color: red;
+}
+
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social_links{
+    display: flex;
+    background-color: red;
+    column-gap: 20px;
+}
+
+.hero-image {
+    background: rgb(126,90,255);
+    background: linear-gradient(40deg, rgba(126,90,255,1) 0%, rgba(85,183,255,1) 100%);
+    
+    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
+    
+    background-size: cover; /* Adjust to fit the container */
+    height: 800px;
+    width: 100%; /* Make the image fill the container horizontally */
+
+    
+}
