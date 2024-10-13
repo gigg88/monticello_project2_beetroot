@@ -18,14 +18,14 @@
         font-weight: var(--regular);
         line-height: auto;
         text-transform: uppercase;
-        color: black;
+        color: white;
     }
 }
 
 .header_logo_img{
     width: 241px;
     height: 54px;
-    background-color: red;
+    
 }
 
 .header_content{
@@ -36,16 +36,14 @@
 
 .social_links{
     display: flex;
-    background-color: red;
     column-gap: 20px;
 }
 
 .hero-image {
+       
+    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
     background: rgb(126,90,255);
     background: linear-gradient(40deg, rgba(126,90,255,1) 0%, rgba(85,183,255,1) 100%);
-    
-    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
-    
     background-size: cover; /* Adjust to fit the container */
     height: 800px;
     width: 100%; /* Make the image fill the container horizontally */
