@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -10,12 +9,19 @@
   --medium: 500;
   --demi-bold: 600;
   --bold: 800;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --txt_cl_primary:#2C4058;
+  --btn_txt_cl_hover:#fff;
+  --btn_border_cl: #000000;
+  --btn_bg_cl:white;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+  font-family: var(--font-montserrat);
 }
 
 .container {
