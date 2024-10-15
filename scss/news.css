@@ -20,7 +20,7 @@
   color: var(--txt_cl_primary);
   margin-bottom: 15px;
 }
-.slider_content_block p {
+.slider_content_block .slider_short_text {
   font-family: var(--open_sans);
   font-weight: var(--regular);
   font-size: 18px;
@@ -33,6 +33,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  column-gap: 20px;
 }
 .author_information img {
   border-radius: 50%;
@@ -41,6 +42,23 @@
 }
 
 .author {
-  display: flex;
   align-items: center;
+  justify-content: center;
+  column-gap: 6px;
+}
+
+.author_name {
+  font-family: var(--font-montserrat);
+  font-weight: var(--regular);
+  font-size: 18px;
+  color: var(--txt_cl_primary);
+  margin-bottom: 6px !important;
+}
+
+.author_date {
+  margin-bottom: 0px !important;
+  font-family: var(--font-montserrat);
+  font-size: 14px;
+  font-weight: var(--regular);
+  color: #55B7FF;
 }
