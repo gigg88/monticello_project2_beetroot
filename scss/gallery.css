@@ -1,0 +1,16 @@
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Create 4 equal-width columns */
+  grid-template-rows: repeat(2, 1fr);
+  /* Create 2 equal-height rows */
+  grid-gap: 10px;
+  /* Set gap between rows and columns to 10px */
+}
+
+.gallery-grid > a:first-of-type {
+  grid-column: 1/span 2;
+  /* Span columns 1 to 2 */
+  grid-row: 1/span 2;
+  /* Span rows 1 to 2 */
+}
