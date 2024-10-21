@@ -1,23 +1,44 @@
+.latest_news{
+    background-image: url(/assets/img/news/bg_news.jpg);
+    background-size: cover; /* Adjust to fit the container */
+    width: 100%; /* Make the image fill the container horizontally */
+    
+}
+
+.latest_news_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-montserrat);
+    font-weight: var(--bold);
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 89px;
+    padding: 135px;
+}
+.latest_news_slider{
+    
+}
 
 .slider_content{
-    margin-bottom: 143px;
+    background-color: white;
+    
 
     img{
         margin-bottom:20px;
+        
     }
 }
 
 .slider_content_block{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    
     max-width: 370px;
     width: 100%;
     text-align: left;
     padding-left: 20px;
-    padding-right: 20px;
-
+    
     h3{
         font-family: var(--font-montserrat);
         font-weight: var(--bold);
@@ -76,6 +97,57 @@
 }
 
 .nav_button{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
     
+
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
+    &.slick-prev{
+        left: -60px;
+    }
+
+    &.slick-next{
+        right:-60px;
+    }
+
+}
+
+.slick-dots{
+    display: flex;
+    padding:0;
+    list-style: none;
+    justify-content: center;
+    color:transparent;
+    
+    gap: 40px;
+    margin-top:70px;
+
+    .slick-active{
+        button{
+            background-color: white;
+        }
+    }
+
+   button{
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-bottom: 50px;
+   }
 }
 
