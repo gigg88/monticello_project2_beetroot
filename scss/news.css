@@ -16,6 +16,11 @@
   text-transform: uppercase;
   margin-bottom: 89px;
   padding: 135px;
+  color: white;
+}
+
+.slick-slide {
+  margin-right: 30px;
 }
 
 .slider_content {
@@ -23,6 +28,7 @@
 }
 .slider_content img {
   margin-bottom: 20px;
+  display: block;
 }
 
 .slider_content_block {

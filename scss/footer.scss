@@ -1,0 +1,131 @@
+.footer {
+       
+    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
+    background: rgb(126,90,255);
+    background: linear-gradient(40deg, rgba(126,90,255,1) 0%, rgba(85,183,255,1) 100%);
+    background-size: cover; /* Adjust to fit the container */
+    height: 549px;
+    width: 100%; /* Make the image fill the container horizontally */
+   
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo_content {
+
+    p{
+        font-family: var(--font-montserrat);
+        font-weight: var(--regular);
+        font-size: 14px;
+        color: white;
+        
+    }
+}
+
+.footer_logo_img{
+    margin-bottom: 40px;
+}
+
+.footer_content{
+    height: 549px;
+}
+
+.contact_form_section {
+    position: relative;
+    top: -225px;
+    z-index: 10000;
+    height:0;
+}
+
+.cta_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 770px;
+    background-color: white;   
+
+}
+
+.form_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_header_title{
+    font-family: var(--font-montserrat);
+    font-weight: var(--bold);
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+
+}
+
+.form_contact_information{
+    display: flex;
+
+}
+
+.form_contact form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_address, .form_mobile, .form_email, .form_working_time{
+    font-family: var(--font-montserrat);
+    font-weight: var(--regular);
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.input_button {
+    display: flex;
+    justify-content: flex-end;
+
+    button{
+        
+        font-family: var(--font-montserrat);
+        font-size: 18px;
+        font-weight: var(--regular);
+        line-height: 27px;
+        color: var(--txt_cl_primary);
+        border: 1px solid black;
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        text-transform: uppercase;
+        background-color: white;
+        margin-top: 30px;
+        
+    }
+}
+
+
+
+
+.input_name, .input_email{
+    background: transparent;
+    outline:none;
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 5px 0;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: var(--regular);
+    line-height: 27px;
+    font-family: var(--font-montserrat);
+    
+}
+
+.element {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

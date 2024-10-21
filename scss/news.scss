@@ -15,18 +15,21 @@
     text-transform: uppercase;
     margin-bottom: 89px;
     padding: 135px;
+    color: white;
 }
-.latest_news_slider{
-    
+
+.slick-slide{
+    margin-right: 30px;
 }
+
 
 .slider_content{
     background-color: white;
-    
+       
 
     img{
         margin-bottom:20px;
-        
+        display: block;
     }
 }
 
