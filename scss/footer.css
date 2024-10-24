@@ -1,13 +1,14 @@
 .footer {
-  background-image: url("/assets/img/header/tu-tram-pham-202263.jpg");
+  background-image: url("/assets/img/footer/footer_img.jpg");
   /* Replace with your image path */
-  background: #7e5aff;
-  background: linear-gradient(40deg, #7e5aff 0%, #55b7ff 100%);
   background-size: cover;
   /* Adjust to fit the container */
+  object-fit: cover;
+  background-position: center;
   height: 549px;
   width: 100%;
   /* Make the image fill the container horizontally */
+  position: relative;
 }
 
 .footer_content {

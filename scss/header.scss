@@ -1,8 +1,14 @@
 
 .header_section{
-    padding-top:53px;
-    background-image: url();
+    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
+    object-fit: cover;
+    background-size: cover; /* Adjust to fit the container */
+    height: 800px;
+    width: 100%; /* Make the image fill the container horizontally */
+    position: relative;
+       
 }
+
 .main_nav_list {
     display:flex;
     column-gap: 93px;
@@ -33,21 +39,57 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top:53px;
 }
 
 .social_links{
     display: flex;
     column-gap: 20px;
 }
+.hero_slider_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column; 
+}
+.hero_slider_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero_slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 
-.hero-image {
-       
-    background-image: url('/assets/img/header/tu-tram-pham-202263.jpg'); /* Replace with your image path */
-    background: rgb(126,90,255);
-    background: linear-gradient(40deg, rgba(126,90,255,1) 0%, rgba(85,183,255,1) 100%);
-    background-size: cover; /* Adjust to fit the container */
-    height: 800px;
-    width: 100%; /* Make the image fill the container horizontally */
+.hero_slider_heading{
+    font-weight: var(--bold);
+    letter-spacing: 10px;
+    font-size: 80px;
+    color: var(--txt_cl_secondary);
 
-    
+}
+
+.hero_slider_txt{
+    font-weight: var(--regular);
+    font-size: 18px;
+    letter-spacing: 30px;
+    color: var(--txt_cl_secondary);
+}
+
+.slick-dots.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the bottom margin  
+ as needed */
+}
+
+.slick-dots.vertical li {
+    margin: 5px 0; /* Adjust the vertical spacing between dots */
 }
