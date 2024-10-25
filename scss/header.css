@@ -1,5 +1,5 @@
 .header_section {
-  background-image: url("/assets/img/header/tu-tram-pham-202263.jpg");
+  background-image: url("./assets/img/header/tu-tram-pham-202263.jpg");
   /* Replace with your image path */
   object-fit: cover;
   background-size: cover;
